@@ -1,0 +1,23 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TemasMauiApp.MainPage"
+             BackgroundColor="{DynamicResource FondoPagina}">
+
+    <VerticalStackLayout Spacing="25" Padding="30">
+
+        <Label Text="Tema Claro / Oscuro"
+               TextColor="{DynamicResource ColorTexto}"
+               FontSize="30"
+               HorizontalOptions="Center" />
+
+        <Switch x:Name="temaSwitch"
+                Toggled="temaSwitch_Toggled"
+                HorizontalOptions="Center" />
+
+        <Label Text="Trabajo de Carlos Manuel Cleto"
+               TextColor="{DynamicResource ColorTexto}"
+                HorizontalOptions="Center" 
+               FontSize="24"/>
+
+    </VerticalStackLayout>
+</ContentPage>
